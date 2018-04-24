@@ -6,9 +6,11 @@ var PORTbad = 7500;
 function handleRequest1(request, response) {
 response.end("You are pretty cool! " + request.url);
 }
+
 function handleRequest2(request, response) {
-    response.end("You are pretty cool! " + request.url);
-    }
+response.end("You are pretty cool! " + request.url);
+}
+
 var server1 = http.createServer(handleRequest1);
 var server2 = http.createServer(handleRequest2);
 
