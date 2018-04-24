@@ -15,9 +15,9 @@ var server1 = http.createServer(handleRequest1);
 var server2 = http.createServer(handleRequest2);
 
 server1.listen(PORTgood, function() {
-    console.log("Server listening on: http://localhost:" + PORTgood + ". Something good about you!");
+    console.log("Server listening on: http://localhost:" + PORTgood + " Something good about you!");
 });
 
 server2.listen(PORTbad, function() {
-    console.log("Server listening on: http://localhost:" + PORTbad + ". Something bad about you!");
+    console.log("Server listening on: http://localhost:" + PORTbad + " Something bad about you!");
 });
